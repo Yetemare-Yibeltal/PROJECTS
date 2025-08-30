@@ -1,0 +1,59 @@
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.profile-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.headline h1 {
+  background: linear-gradient(100deg, #b49403 .60%, #00fff2 109%);
+-webkit-background-clip: text;
+color: transparent;
+  text-align: center;
+  font-size: 33px;
+  padding:5px;
+}
+.headline h1 span {
+  font-size: 50px;
+  /*  BG From Evangadi */
+  /* background: linear-gradient(267deg, #d34305 1.06%, #381300   60.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-weight: 900;
+
+  background: linear-gradient(to right, #ff7e00, #ff007e);
+  -webkit-background-clip: text;
+  color: transparent;
+
+  font-family: "Dancing Script", cursive;
+}
+
+.profile-wrapper p {
+  color: #fff;
+  text-align: center;
+}
+.headline-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.head-btns {
+  background: linear-gradient(to right, #ff2a2a, #a100ff);
+  color: white;
+  padding: 8px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+}
+.head-btns:hover {
+  background-image: none;
+  background-color: #fff;
+  color: #000;
+}
