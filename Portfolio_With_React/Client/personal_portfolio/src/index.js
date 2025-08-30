@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./Components/Header/Header.css"
 import "./Components/Profile/Profile.css"
+import "./Components/About/About.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import App from './App';

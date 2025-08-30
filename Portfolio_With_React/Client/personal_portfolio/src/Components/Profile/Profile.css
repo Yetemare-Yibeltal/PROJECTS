@@ -11,37 +11,41 @@
   border-radius: 50%;
 }
 .headline h1 {
-  background: linear-gradient(100deg, #b49403 .60%, #00fff2 109%);
--webkit-background-clip: text;
-color: transparent;
+  background: linear-gradient(100deg, #b49403 0.6%, #00fff2 109%);
+  -webkit-background-clip: text;
+  color: transparent;
   text-align: center;
   font-size: 33px;
-  padding:5px;
+  padding: 5px;
+  font-family: "Pacifico", cursive;
+
+  /* font-family: "Dancing Script", cursive;  */
 }
 .headline h1 span {
-  font-size: 50px;
+  font-size: 40px;
   /*  BG From Evangadi */
   /* background: linear-gradient(267deg, #d34305 1.06%, #381300   60.06%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  font-weight: 900;
+  font-weight: 600;
 
   background: linear-gradient(to right, #ff7e00, #ff007e);
   -webkit-background-clip: text;
   color: transparent;
-
-  font-family: "Dancing Script", cursive;
+  font-family: "Yeseva One", serif;
 }
 
 .profile-wrapper p {
   color: #fff;
   text-align: center;
+  font-size: 20px;
 }
 .headline-btns {
   display: flex;
   align-items: center;
   justify-content: center;
+
   gap: 50px;
 }
 .head-btns {
@@ -56,4 +60,7 @@ color: transparent;
   background-image: none;
   background-color: #fff;
   color: #000;
+  border: 2px solid #ff007e;
+  border-radius: 30px;
+  transition: 0.5s;
 }
