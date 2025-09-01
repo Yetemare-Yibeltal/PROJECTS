@@ -37,18 +37,156 @@ function About() {
               </p>
             </div>
           </div>
-        </div>
+        </div>{" "}
+        {/* SkiLL Section Style. */}
+        <h1 className="skill-header">Professional Skills</h1>
       </section>
       <section className="skill-wrapper">
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>Javascript</li>
-          <li>Media Query</li>
-          <li>React</li>
-          <li>Nodejs</li>
-          <li>MYSQL</li>
+          <li className="skill-item">
+            <span className="skill-name">HTML</span>
+            <div className="skill-box">
+              <span className="text-end d-block">99.5%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "99%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+          <li className="skill-item">
+            <span className="skill-name">CSS</span>
+            <div className="skill-box">
+              <span className="text-end d-block">98%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "98%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+          <li className="skill-item">
+            <span className="skill-name">Bootstrap</span>
+            <div className="skill-box">
+              <span className="text-end d-block">92%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "92%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+          <li className="skill-item">
+            <span className="skill-name">Javascript</span>
+            <div className="skill-box">
+              <span className="text-end d-block">90%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "90%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+          <li className="skill-item">
+            <span className="skill-name">JEQUERY</span>
+            <div className="skill-box">
+              <span className="text-end d-block">88%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "88%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+          <li className="skill-item">
+            <span className="skill-name">React</span>
+            <div className="skill-box">
+              <span className="text-end d-block">95%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "95%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+          <li className="skill-item">
+            <span className="skill-name">Nodejs</span>
+            <div className="skill-box">
+              <span className="text-end d-block">93%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "93%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+          <li className="skill-item">
+            <span className="skill-name">React</span>
+            <div className="skill-box">
+              <span className="text-end d-block">95%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "95%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
+                    <li className="skill-item">
+            <span className="skill-name">MYSQL</span>
+            <div className="skill-box">
+              <span className="text-end d-block">94%</span>
+              <div className="progress">
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "94%" }}
+                ></div>
+              </div>
+            </div>
+          </li>
         </ul>
       </section>
     </div>
@@ -56,3 +194,15 @@ function About() {
 }
 
 export default About;
+ {
+   /* <span className="text-end d-block">99%</span> */
+ }
+ {
+   /* <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>Javascript</li>
+          <li>Media Query</li>
+          <li>React</li>
+          <li>Nodejs</li>
+          <li>MYSQL</li> */
+ }

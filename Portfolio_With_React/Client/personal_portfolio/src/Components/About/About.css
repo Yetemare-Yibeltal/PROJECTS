@@ -28,7 +28,7 @@
   margin: auto;
   border: 1px solid #8b3a18;
   border-radius: 20px;
-padding:  20px;
+  padding: 20px;
 }
 .about-img img {
   width: 300px;
@@ -43,18 +43,72 @@ padding:  20px;
   gap: 30px;
 }
 .description {
-  color:#fff;
+  color: #fff;
   font-size: 16px;
 }
-.skill-wrapper ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap:10px;
-  color:#fff;
-   width: 80%;
-  margin: auto;
+.skill-header {
+  font-size: 45px;
+  margin-top: 20px;
+  color: #fff;
+  /*  BG From Evangadi */
+  background: linear-gradient(267deg, #8b3a18 1.06%, #4f1c02 60.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-family: "Yeseva One", serif;
 }
-.skill-wrapper ul li{
-  list-style: none;
+
+/* Skill Section Style */
+.skill-wrapper {
+  padding: 0 60px;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  width: 65px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+.skill-box {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.text-end {
+  text-align: right;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #eceaea;
+}
+
+.progress {
+  background-color: #eee;
+  border-radius: 20px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, #ff2a2a, #a100ff);
+  height: 100%;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 25px;
+  font-weight: bold;
+  transition: width 1s ease-in-out;
+}
+.skill-box:hover {
+  padding: 2px;
+  transition: 0.3s;
 }
