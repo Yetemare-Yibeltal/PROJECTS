@@ -38,7 +38,7 @@ function Myservice() {
           />
           <ServiceThumbnail
             thumbnailId="VI"
-            thumbnailTitle="24/7 Uptime "
+            thumbnailTitle="24/7 Uptime Service "
             thumbnailDesc=" I deliver  continuous availability and real-time performance.
             and reliable access—anytime, anywhere, without disruption.
 "

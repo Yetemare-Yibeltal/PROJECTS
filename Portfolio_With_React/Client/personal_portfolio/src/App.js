@@ -4,8 +4,8 @@ import Header from "./Components/Header/Header";
 import Profile from "./Components/Profile/Profile";
 import About from "./Components/About/About";
 import Myservice from "./Components/Myservice/Myservice";
-import "./Components/Header/Header.css"
 import Latestwork from "./Components/LatestWork/Latestwork";
+
 function App() {
   return (
     <div className="App">

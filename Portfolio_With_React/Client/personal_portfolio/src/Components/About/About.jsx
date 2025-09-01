@@ -192,17 +192,4 @@ function About() {
     </div>
   );
 }
-
 export default About;
- {
-   /* <span className="text-end d-block">99%</span> */
- }
- {
-   /* <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>Javascript</li>
-          <li>Media Query</li>
-          <li>React</li>
-          <li>Nodejs</li>
-          <li>MYSQL</li> */
- }
