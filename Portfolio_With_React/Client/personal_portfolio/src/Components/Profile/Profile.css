@@ -10,6 +10,14 @@
   height: 300px;
   border-radius: 50%;
 }
+.headline h1 span{
+  font-size: 30px;
+  font-weight: 500;
+    background: linear-gradient(to right, #ff7e00, #ff007e);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Yeseva One", serif;
+}
 .headline h1 {
   background: linear-gradient(
     100deg,
@@ -19,16 +27,14 @@
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
-  font-size: 27px;
+  font-size: 26px;
   padding: 5px;
   font-family: "cursive";
+  font-weight: bold;
 
   /* font-family: "Dancing Script", cursive;  */
 
-  background: linear-gradient(to right, #ff7e00, #ff007e);
-  -webkit-background-clip: text;
-  color: transparent;
-  font-family: "Yeseva One", serif;
+
 }
 
 .profile-wrapper p {

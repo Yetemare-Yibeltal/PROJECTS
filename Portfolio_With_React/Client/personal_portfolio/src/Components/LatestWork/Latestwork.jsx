@@ -11,7 +11,7 @@ function Latestwork() {
         <div className="latest-work-component-wrapper">
           <WorkThumbnail
             WorkThumbnailImage={flower}
-            WorkThumbnailTitle="Youtube Clone"
+            WorkThumbnailTitle="Netflex app with react"
           />
           <WorkThumbnail
             WorkThumbnailImage={flower}
@@ -19,19 +19,54 @@ function Latestwork() {
           />
           <WorkThumbnail
             WorkThumbnailImage={flower}
-            WorkThumbnailTitle="Youtube Clone"
+            WorkThumbnailTitle="Apple with Bootstrap"
           />
           <WorkThumbnail
             WorkThumbnailImage={flower}
-            WorkThumbnailTitle="Youtube Clone"
+            WorkThumbnailTitle="Instagram App"
           />
-          <WorkThumbnail></WorkThumbnail>
-          <WorkThumbnail></WorkThumbnail>
-          <WorkThumbnail></WorkThumbnail>
-          <WorkThumbnail></WorkThumbnail>
-          <WorkThumbnail></WorkThumbnail>
-          <WorkThumbnail></WorkThumbnail>
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Zoom app"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Weather app"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Scientific Calculator"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Ecommerence Etcare Website"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="WhatstApp"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Injibara University Feature"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Food and Restaurant"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Video Editing Website"
+          />
+          <WorkThumbnail
+            WorkThumbnailImage={flower}
+            WorkThumbnailTitle="Ethiopian Videos with API"
+          />
         </div>
+        {/* Show more button Style */}
+        <section className="button-wrapper">
+          <span className="showmore-arrow"></span>
+          <button className="showmore-btn">Show more</button>
+        </section>
       </div>
     </div>
   );

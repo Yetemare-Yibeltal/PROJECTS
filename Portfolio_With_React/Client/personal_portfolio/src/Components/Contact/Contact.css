@@ -1,0 +1,141 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.contact-wrapper .contact-header h1 {
+  background: linear-gradient(to right, #ff00e6, #ff7200, #e602a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  font-size: 38px;
+  font-family: "Yeseva One", serif;
+}
+
+.contact-body-wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.nearSide-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+.nearSide-left h1 {
+  background: linear-gradient(to right, #ff00e6, #ff7200, #e602a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: "Yeseva One", serif;
+}
+.nearSide-left p {
+  color: #fff;
+  font-size: 20px;
+}
+.nearSide-left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.nearSide-left ul li {
+  list-style: none;
+  color: #fff;
+  font-size: 18px;
+}
+.nearSide-left ul li span {
+  color: #ff4500;
+  font-size: 17px;
+  font-weight: 600;
+}
+.email-icon,
+.phone-icon,
+.location-icon {
+  margin: 5px;
+}
+
+.email-icon {
+  width: 18%;
+  align-items: center;
+}
+.phone-icon {
+  width: 25%;
+}
+.location-icon {
+  width: 20%;
+}
+.nearSide-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+.nearSide-right label {
+  font-size: 20px;
+  color: #fff;
+}
+.nearSide-right input {
+  padding: 7px;
+  font-size: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  transform: scale(1.01);
+  transition: 0.8s;
+  border: 1px solid rgb(5, 97, 125);
+}
+input:focus {
+  background-color: #fff;
+  border: 1px solid #d47100;
+  box-shadow: 0 0 5px rgba(3, 40, 45, 0.5);
+  color: #000;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+}
+input:focus::placeholder {
+  color: #000;
+  font-size: 15px;
+}
+.nearSide-right textarea {
+  padding: 0 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 17px;
+  background-color: #111;
+  color: #000;
+  min-height: 90px;
+  margin-bottom: 10%;
+  outline: none;
+  transform: scale(1.01);
+  transition: 0.9s;
+}
+.nearSide-right textarea:focus {
+  background-color: #cbc6c6;
+}
+.nearSide-right textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+textarea:focus::placeholder {
+  color: #000;
+}
+.submit-btn button {
+  background: linear-gradient(to right, #ff00e6, #ff7200, #e602a2);
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 9px;
+  margin-top: 40px;
+}
