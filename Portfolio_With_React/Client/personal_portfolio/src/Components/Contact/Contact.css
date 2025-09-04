@@ -1,3 +1,4 @@
+ 
 .contact-wrapper {
   display: flex;
   flex-direction: column;
@@ -14,12 +15,27 @@
   font-size: 38px;
   font-family: "Yeseva One", serif;
 }
-
+@media(max-width:540px){
 .contact-body-wrapper {
   display: flex;
+  flex-direction: column;
   width: 80%;
   justify-content: space-between;
   gap: 10%;
+}
+}
+@media (min-width:768px){
+.contact-body-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  gap: 10%;
+}
+}
+
+@media(max-width:540px){
+
 }
 
 .nearSide-left {
@@ -36,9 +52,22 @@
   font-size: 28px;
   font-family: "Yeseva One", serif;
 }
+@media(max-width:540px){
+  .nearSide-left p {
+     width: 400px;
+  color: #fff;
+  font-size: 15px;
+}
+.nearSide-left ul li {
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+}
+}
 .nearSide-left p {
   color: #fff;
   font-size: 20px;
+ 
 }
 .nearSide-left ul {
   display: flex;
@@ -62,7 +91,7 @@
 }
 
 .email-icon {
-  width: 18%;
+  width: 10%;
   align-items: center;
 }
 .phone-icon {

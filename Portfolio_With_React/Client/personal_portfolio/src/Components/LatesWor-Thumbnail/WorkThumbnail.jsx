@@ -8,7 +8,7 @@ function WorkThumbnail({ WorkThumbnailImage, WorkThumbnailTitle }) {
         <div className="image-with-title">
           <img src={WorkThumbnailImage} />
           <h2>
-            <Link to="">{WorkThumbnailTitle}</Link>
+            <Link to="" className="text-clear">{WorkThumbnailTitle}</Link>
           </h2>
         </div>
       </section>

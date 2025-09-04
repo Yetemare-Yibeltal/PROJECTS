@@ -46,7 +46,7 @@ function About() {
           <li className="skill-item">
             <span className="skill-name">HTML</span>
             <div className="skill-box">
-              <span className="text-end d-block">99.5%</span>
+              <span className="text-end d-block">99%</span>
               <div className="progress">
                 <div
                   className="progress-bar bg-success"

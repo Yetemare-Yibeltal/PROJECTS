@@ -5,8 +5,8 @@ function Profile() {
   return (
     <div>
       <section className="profile-wrapper">
-        <div className="profile-img">
-          <img src={profileImage} alt="" />
+        <div className="profile-img ">
+          <img src={profileImage} alt="profile image"  className=" "/>
         </div>
         <div className="headline">
           <h1>
