@@ -21,7 +21,7 @@
   left: 0;
   width: 100%;
   height: 0%;
-  background-image: linear-gradient(to right, #057cf2 0.8%, #a105f2);
+  background-image: linear-gradient(45deg, #ed8003,green  , #ff9900);
   transition: height 0.5s ease;
   z-index: 0;
 }
@@ -53,6 +53,9 @@
   -webkit-background-clip: text;
   color: transparent;
   font-family:   serif monospace;
+}
+.service-thum h1:hover{
+color:#ffff14;
 }
 .service-thum p {
   display: flex;

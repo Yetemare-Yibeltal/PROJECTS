@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Header.css";
+import "./Header.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +15,10 @@ function Header() {
           Gashuna Hotel
         </Link>
         {/* Mobile Menu Icon */}
-        <button className="btn btn-outline-primary" onClick={toggleMenu}>
+        <button
+          className=" menu-toggler btn-outline-primary"
+          onClick={toggleMenu}
+        >
           {isOpen ? (
             <FontAwesomeIcon icon={faTimes} />
           ) : (
@@ -40,6 +43,19 @@ function Header() {
             Contact
           </Link>
         </nav>
+        <div className="header-btns">
+          <Link
+            to="https://t.me/yibeltalyitayew2024"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="telegram-btn"
+          >
+            Telegram
+          </Link>
+          <Link to="/contact" className="bookNow">
+            Book Now
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from '../Components/Home/Header/Header'
+import Hero from '../Components/Hero/Hero'
+import "../Components/Hero/Hero.css"
 function Home() {
   return (
-    <div>
-      <h1>
-        <Header></Header>
-         </h1>
+    <div className='hero'>
+        <Hero></Hero>
     </div>
   )
 }

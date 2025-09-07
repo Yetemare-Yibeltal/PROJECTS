@@ -5,7 +5,7 @@ function Header() {
   const [headerMenu, setHeaderMenu] = useState("home");
   return (
     <div>
-      <nav class="navbar navbar-expand-md navbar-light">
+      <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <div className="header-img ms-3 mt-3">
@@ -28,7 +28,7 @@ function Header() {
              "
             id="navbarNav"
           >
-            <ul class="navbar-navm   ms-3 d-md-flex justify-content-end  align-items-center w-100 list-unstyled  UL-GAP">
+            <ul class="navbar-nav   ms-3 d-md-flex text-color-light justify-content-end  align-items-start w-100 list-unstyled  UL-GAP">
               <li
                 class="nav-item"
                 onClick={(e) => setHeaderMenu("home")}
