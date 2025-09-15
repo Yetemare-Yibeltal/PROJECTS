@@ -1,0 +1,113 @@
+:root {
+  --primary-blue: #1e3a8a;
+  --accent-yellow: #facc15;
+  --background-light-grey: #f8fafc;
+  --text-dark-grey: #f8fafc;
+  --secondary-light-grey: #e5e7eb;
+  --white: #fff;
+  --dark-blue: #172b6b;
+}
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  overflow: hidden;
+  padding: 0 1rem;
+}
+.hero-background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+   z-index: -1;
+  pointer-events: none;
+  background-color: black;
+
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  max-width: 800px;
+  text-align: center;
+}
+.hero-header {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 16px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0.5);
+}
+.hero-subheading {
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  font-size: 25px;
+  margin-bottom: 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0.5);
+}
+.hero-cta-button{
+padding: 14px;
+font-size: 28px;
+background-color: var(--primary-blue);
+padding: 16px 32px;
+border-radius: 8px;
+color: white;
+text-decoration: none;
+font-family: 'Inter',sans-serif;
+font-weight: 600;
+font-size: 18px;
+transition: background-color 0.3s ease, transform 0.2s ease;
+text-align: center;
+border:none;
+cursor: pointer;
+}
+.hero-cta-button:hover{
+  background-color: #172b6b;
+  transform: translateY(-3px);
+}
+
+
+
+@media (max-width:480px) {
+  .hero-header{
+    font-size: 28px;
+
+  }
+  .hero-subheading{
+    font-size: 16px;
+    margin-bottom: 16px;
+
+  }
+  .hero-cta-button{
+    padding:13px 20px;
+    font-size: 15px;
+
+  }
+}
+@media (max-width:992px) {
+  .hero-section{
+    font-size: 24px;
+  }
+  .hero-header{
+    font-size: 38px;
+  }
+  .hero-subheading{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+  }
+  .hero-cta-button{
+    padding:13px;
+    margin-bottom: 14px;
+  }
+}

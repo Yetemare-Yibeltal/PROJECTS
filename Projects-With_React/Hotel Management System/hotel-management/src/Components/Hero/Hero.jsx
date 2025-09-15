@@ -1,10 +1,10 @@
 import React from "react";
-import backgroundVideo from "../../Videos/background-video.mp4";
+import backgroundVideo from "../../Videos/background-video2.mp4";
 import {Link} from "react-router-dom"
 function Hero() {
   return (
     <section className="hero-section" id="hero">
-      <video className="hero-background-video" autoPlay muted playsInline>
+      <video className="hero-background-video" autoPlay loop muted playsInline>
         <source src={backgroundVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -18,7 +18,7 @@ function Hero() {
           to="rooms"
           smooth={true}
           duration={500}
-          className="hero=cta-button"
+          className="hero-cta-button"
         >
           Check Availablity
         </Link>

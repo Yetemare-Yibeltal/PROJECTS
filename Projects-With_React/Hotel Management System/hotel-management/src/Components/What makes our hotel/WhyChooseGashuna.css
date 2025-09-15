@@ -1,0 +1,62 @@
+:root {
+  --primary-blue: #1e3a8a;
+  --accent-yellow: #facc15;
+  --background-light-grey: #f8fafc;
+  --text-dark-grey: #f8fafc;
+  --secondary-light-grey: #e5e7eb;
+  --white: #fff;
+  --dark-blue: #172b6b;
+}
+.what-makes-good-section{
+  background-color: var(--background-light-grey);
+  padding: 20px;
+}
+.why-makes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom:22px;
+  line-height: 1.2;
+}
+.desc-parag{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #092536;
+  max-width: 800px;
+  margin: 0 auto  1rem auto;
+  line-height: 1.7;
+}
+.service-grid{
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* This is key */
+  gap: 2rem;
+  margin-top: 2rem;
+}
+  .section-title {
+    font-size: 38px;
+  }
+  .intro-parag {
+    font-size: 18px;
+  }
+}
+@media (max-width:768px) {
+ .what-makes{
+  padding:  64px 0;
+
+
+ }
+}
