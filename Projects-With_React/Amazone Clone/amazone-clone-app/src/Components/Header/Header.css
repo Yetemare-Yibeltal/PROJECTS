@@ -36,6 +36,10 @@ flex-direction: column;
 margin-left: 10px;
 margin-right: 10px;
 color: #fff;
+
+}
+.header-option Link{
+  text-decoration: none;    
 }
 .header-nav{
   display: flex;

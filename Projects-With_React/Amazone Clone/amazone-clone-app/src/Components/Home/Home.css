@@ -4,9 +4,10 @@
   margin-bottom: -150px;
   mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
-.home-row{
+.home-row {
   display: flex;
-  z-index: 1;
-  margin-left: 5px;
-  margin-right: 5px;
+  justify-content: center; /* centers items horizontally */
+  flex-wrap: wrap;         /* allows wrapping on smaller screens */
+  gap: 20px;               /* optional spacing between items */
+  margin: 0 auto;          /* centers the row itself */
 }

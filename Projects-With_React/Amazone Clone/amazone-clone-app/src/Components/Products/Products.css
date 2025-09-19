@@ -1,5 +1,6 @@
 .product {
   display: flex;
+  flex:1;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
@@ -23,9 +24,12 @@
 .product-price {
   margin-top: 5px;
 }
-.product-info{
-  height: 100px;
+.product-info {
+  min-height: 100px;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .product button {
   background: #f0c14b;
@@ -36,12 +40,17 @@
 }
 .product-rating {
   display: flex;
- margin-bottom:10%;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
 }
 .product:hover {
   transform: scale(1.05);
 }
 .star {
+ 
   color: gold;
-  font-size: 30px;
+  font-size: 20px;
+  visibility: visible;
+  display: inline-block;
 }
